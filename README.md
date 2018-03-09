@@ -10,15 +10,17 @@ But, there's a new variant of "self-hosted ClojureScript," such as Planck and Lu
 
 For the programmer, it means that you can run `planck script.cljs` or `lumo script.cljs`, and it runs as fast as you'd expect a ruby script to run.
 
-Last week, I had fun writing a short program Lumo/ClojureScript that calculated word frequencies so that I could create word clouds for the 90K word Beyond The Phoenix Project manuscript.  (Link)
+Last week, I had fun writing a short program Lumo/ClojureScript that calculated word frequencies so that I could [create word clouds](https://gist.github.com/realgenekim/2c7bd1cb33f6ffc2b13b1ad413d2fb06) for the 90K word Beyond The Phoenix Project manuscript.
 
-What it showed me was that you can now quickly and easily use Clojure to write small disposable scripts.  So now I'm using Clojure for large programs and small.
+What it showed me was that you can now quickly and easily use Clojure to write small disposable scripts.  So hey, now I'm using Clojure for large programs and small! Woot!
 
 Until now, since 2007, I've been using ruby for tasks like this.  I often referred to the [Ruby One-Liners](http://reference.jumpingmonkey.org/programming_languages/ruby/ruby-one-liners.html), because it often showed me how to do various operations, without having to read a bunch of manuals.
 
-I wanted to write the ClojureScript equivalents, mostly so I could use it as a similar type of reference.
+Inspired by an hour-long conversation with @mfikes (author of Lumo), I wanted to write the ClojureScript equivalents to the Ruby One-Liners, mostly so I could use it as a similar type of reference in the future.
 
-I hope this might be useful to a whole new gruop that would like to try Clojure!
+(And I actually don't care that the ClojureScript is more than one line...)
+
+I hope this might be useful to a whole new group of people that want to give ClojureScript a try!
 
 Cheers,
 Gene
